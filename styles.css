@@ -1,0 +1,28 @@
+:root{
+    margin:0;
+}
+body{
+background: rgb(178,175,226);
+background: linear-gradient(90deg, rgba(178,175,226,1) 54%, rgba(80,193,215,1) 99%); 
+align-items:center;
+display:flex;
+justify-content:center;
+}
+
+.container{
+    background-color:red;
+    width:369px;
+    height:523px;
+    display:inline-table;
+
+}
+
+.number{
+    width:59px;
+    height:48px;
+    border-radius:100%;
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;;
+}
