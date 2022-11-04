@@ -7,22 +7,63 @@ background: linear-gradient(90deg, rgba(178,175,226,1) 54%, rgba(80,193,215,1) 9
 align-items:center;
 display:flex;
 justify-content:center;
+flex-direction:column;
+width:100vw;
+height:100vh;
+}
+.btn:hover{
+    background-color:rgb(232, 133, 52);
 }
 
-.container{
-    background-color:red;
-    width:369px;
-    height:523px;
-    display:inline-table;
-
+.btn{
+    height:75px;
+    width:75px;
+    margin: 15px;
+    font-size: 40px;
 }
-
 .number{
-    width:59px;
-    height:48px;
-    border-radius:100%;
-    background-color: white;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+.operator{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+.decimal{
+    border: 1px solid gold;
+    border-radius: 10px;
+    
+}
+.equal{
+    border: 1px solid paleturquoise;
+    border-radius: 10px;
+}
+
+.clear{
+    border: 1px solid palegoldenrod;
+    border-radius: 10px;
+}
+.first-row{
     display:flex;
     justify-content:center;
-    align-items:center;;
+    align-items:center;
+    flex-direction:row;
+   
+}
+.result{
+    width:300px;
+    border:1px solid salmon;
+    height:75px;
+    margin:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.previous{
+    font-size:20px;
+}
+.current{
+    font-size:30px;
 }

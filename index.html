@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
-    <title>Calculator
-    </title>
-</head>
-<body>
-    <div class="container">
-        <div class="result"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="number"></div>
-        <div class="operator"></div>
-        <div class="operator"></div>
-        <div class="operator"></div>
-        <div class="operator"></div>
-        <div class="operator"></div>
-        <div class="zero"></div>
-
+    <title>Calculator</title>
+    
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+      <div>
+        <div class="first-row">
+        <div class="result">
+            <div class="previous"></div>
+            <div class="current"></div>
+        </div>
+        <button class="clear btn">C</button>
+        </div>
+   
+      <div class="buttons">
+        <button class="number btn">7</button>
+        <button class="number btn">8</button>
+        <button class="number btn">9</button>
+        <button class="operator btn">/</button>
+      </div>
+      <div class="buttons">
+        <button class="number btn">4</button>
+        <button class="number btn">5</button>
+        <button class="number btn">6</button>
+        <button class="operator btn">X</button>
+      </div>
+      <div class="buttons">
+        <button class="number btn">1</button>
+        <button class="number btn">2</button>
+        <button class="number btn">3</button>
+        <button class="operator btn">-</button>
+      </div>
+      <div class="buttons">
+        <button class="decimal btn">.</button>
+        <button class="number btn">0</button>
+        <button class="equal btn">=</button>
+        <button class="operator btn">+</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
